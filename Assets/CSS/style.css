@@ -1,0 +1,28 @@
+@import url(fonts.css);
+@import url(reset.css);
+@import url(utility.css);
+
+body {
+  background-image: url('../Images/BG-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: aquamarine;
+
+  display: grid;
+  place-content: center;
+}
+
+/* MOBILE SCREEN */
+@media screen and (max-width: 499px) {
+  body {
+    background-image: url('../Images/BG-mobile.jpg');
+  }
+}
+
+/* TABLET SCREEN */
+@media screen and (min-width: 500px) and (max-width: 992px) {
+  body {
+    background-image: url('../Images/BG-tablet.jpg');
+  }
+}

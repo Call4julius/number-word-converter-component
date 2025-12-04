@@ -1,0 +1,19 @@
+/* CUSTOM PROPERTIES */
+:root {
+  /* FONTS */
+  --ff-primary: 'Inconsolata', sans-serif;
+  --ff-secondary: 'Roboto Mono, sans-serif';
+}
+
+/* UTILITY CLASSES */
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
