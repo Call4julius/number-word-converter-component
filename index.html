@@ -9,10 +9,19 @@
   </head>
   <body>
     <form action="" method="post" id="form">
-      <label for="amount">
-        Amount
+      <div class="entry d-grid">
+        <label for="amount"> Enter Figures Only </label>
         <input type="text" id="amount" />
-      </label>
+        <button type="button" class="convert-btn">Submit</button>
+      </div>
+
+      <div class="result d-grid hidden">
+        <h2 class="result--header">Result in Words</h2>
+        <p class="result--value">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+          repellat! Lorem ipsum dolor sit, amet consectetur.
+        </p>
+      </div>
     </form>
   </body>
 </html>

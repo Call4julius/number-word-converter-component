@@ -1,13 +1,18 @@
 /* CUSTOM PROPERTIES */
 :root {
   /* FONTS */
-  --ff-primary: 'Inconsolata', sans-serif;
-  --ff-secondary: 'Roboto Mono, sans-serif';
+  --ff-primary: "Inconsolata", sans-serif;
+  --ff-secondary: "Roboto Mono, sans-serif";
 }
 
 /* UTILITY CLASSES */
+.hidden {
+  display: none !important;
+}
+
 .d-grid {
   display: grid;
+  gap: 0.5rem;
 }
 
 .d-flex {
