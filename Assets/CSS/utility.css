@@ -1,8 +1,31 @@
 /* CUSTOM PROPERTIES */
 :root {
+  /* TYPOGRAPHY */
   /* FONTS */
-  --ff-primary: "Inconsolata", sans-serif;
-  --ff-secondary: "Roboto Mono, sans-serif";
+  --ff-numeric: Inconsolata, sans-serif;
+  --ff-text: 'Roboto Mono', sans-serif;
+  --fs-body: 1.25rem;
+
+  /* SPACING */
+  --border-radius: 10px;
+
+  /* COLORS */
+  /* GRADIENT */
+  --bg-gradient: #2c2a4e, #6b245a, #3b254b, #3b254b, #006a9e, #2c2a4e;
+
+  /* LIGHT THEME */
+  --fg-primary: 0, 5%, 91%;
+  --fg-secondary: 275, 34%, 22%;
+  --fg-complimentary: 314, 50%, 28%;
+  --fg-accent: 314, 50%, 28%;
+
+  @media (prefers-color-scheme: dark) {
+    /* DARK THEME */
+    --fg-primary: 243, 30%, 24%;
+    --fg-secondary: 0, 5%, 91%;
+    --fg-complimentary: 275, 34%, 22%;
+    --fg-accent: 275, 34%, 22%;
+  }
 }
 
 /* UTILITY CLASSES */
@@ -12,7 +35,6 @@
 
 .d-grid {
   display: grid;
-  gap: 0.5rem;
 }
 
 .d-flex {

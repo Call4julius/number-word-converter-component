@@ -17,12 +17,18 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  padding: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
+ul[role='list'],
+ol[role='list'] {
   list-style: none;
+}
+
+/* Set color-theme preference */
+html {
+  color-scheme: dark light;
 }
 
 /* Set core root defaults */
@@ -32,6 +38,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
+  min-height: 100vh;
   min-height: 100dvh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -44,7 +51,11 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture {
+picture,
+figure,
+canvas,
+audio,
+video {
   max-width: 100%;
   display: block;
 }
