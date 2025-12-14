@@ -8,7 +8,7 @@
     <title>Number-Word Converter</title>
   </head>
   <body>
-    <main>
+    <main class="d-grid">
       <div class="company-header d-flex">
         <img
           src="Assets/Images/native-no-bg.png"
@@ -23,15 +23,16 @@
 
       <form action="" method="post" id="form" class="d-grid">
         <div class="d-flex form-group">
-          <label for="currency">
-            <select name="currency" id="currency" class="custom-select">
+          <div class="custom-select">
+            <span class="select-arrow"></span>
+            <select name="currency" id="currency">
               <option value="naira">₦</option>
               <option value="dollar">$</option>
               <option value="euro">€</option>
               <option value="pound">£</option>
               <option value="yen">¥</option>
             </select>
-          </label>
+          </div>
 
           <div class="input-container">
             <input
@@ -44,15 +45,12 @@
           </div>
         </div>
 
-        <p class="terms text-center">
+        <p class="terms-text text-center">
           All deposits are insured by
-          <i
-            ><abbr title="Nigeria Deposit Insurance Company"
-              >NDIC<sup>&reg</sup></abbr
-            ></i
+          <abbr title="Nigeria Deposit Insurance Company"
+            >NDIC<sup>&reg</sup></abbr
           >. By making this deposit, you agree to
-          <i><a href="#">terms and conditions</a></i
-          >.
+          <a href="#" class="terms-link">terms and conditions</a>.
         </p>
 
         <button type="submit" class="deposit-btn">DEPOSIT</button>
@@ -63,6 +61,9 @@
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat,
           repellat! Lorem ipsum dolor sit, amet consectetur.
         </p>
+      </div>
+      <div class="copy-right text-center">
+        <p>&copy2025 <a href="">call4julius@gmail.com</a></p>
       </div>
     </main>
   </body>
