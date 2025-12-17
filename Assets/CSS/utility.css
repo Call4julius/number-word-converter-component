@@ -24,12 +24,12 @@
 
   @media (prefers-color-scheme: dark) {
     /* DARK THEME */
-    --clr-text: hsl(275, 34%, 22%);
+    --clr-text: hsl(0, 0%, 96%);
+    --clr-accent: hsl(314, 56%, 53%);
     --clr-link: hsl(314, 56%, 53%);
-    --clr-accent: hsl(314, 50%, 28%);
     --clr-native: hsl(0, 0%, 96%);
-    --clr-primary: hsl(0, 6%, 71%);
-    --clr-secondary: hsl(275, 34%, 22%);
+    --clr-primary: hsl(275, 34%, 22%);
+    --clr-secondary: hsl(0, 6%, 71%);
   }
 }
 
