@@ -1,36 +1,26 @@
 /* CUSTOM PROPERTIES */
 :root {
+  /* Set color-theme preference */
+  color-scheme: light dark;
+
   /* TYPOGRAPHY */
   /* FONTS */
-  --ff-numeric: Inconsolata, sans-serif;
   --ff-text: 'Roboto Mono', sans-serif;
+  --ff-numeric: Inconsolata, sans-serif;
   --fs-body: 1.25rem;
 
   /* SPACING */
   --border-radius: 10px;
 
   /* COLORS */
-  /* GRADIENT */
   --bg-gradient: #2c2a4e, #6b245a, #3b254b, #3b254b, #006a9e, #2c2a4e;
-  --txt-gradient: #ca45ab, #24a2e0;
+  --txt-gradient: hsl(316 49% 40%), hsl(196, 100%, 29%);
 
-  /* LIGHT THEME */
-  --clr-text: hsl(275, 34%, 22%);
-  --clr-link: hsl(314, 56%, 53%);
-  --clr-accent: hsl(314, 50%, 28%);
-  --clr-native: hsl(0, 0%, 96%);
-  --clr-primary: hsl(0, 6%, 71%);
-  --clr-secondary: hsl(275, 34%, 22%);
-
-  @media (prefers-color-scheme: dark) {
-    /* DARK THEME */
-    --clr-text: hsl(0, 0%, 96%);
-    --clr-accent: hsl(314, 56%, 53%);
-    --clr-link: hsl(314, 56%, 53%);
-    --clr-native: hsl(0, 0%, 96%);
-    --clr-primary: hsl(275, 34%, 22%);
-    --clr-secondary: hsl(0, 6%, 71%);
-  }
+  --clr-primary: light-dark(hsl(321, 11%, 29%), hsl(205, 100%, 98%));
+  --clr-secondary: light-dark(hsl(205, 100%, 98%), hsl(321, 11%, 29%));
+  --clr-accent: light-dark(hsl(196, 100%, 29%), hsl(316 49% 40%));
+  --clr-link: hsl(200, 100%, 60%);
+  --clr-base: hsl(205, 100%, 98%);
 }
 
 /* UTILITY CLASSES */

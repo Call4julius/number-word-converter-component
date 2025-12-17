@@ -26,11 +26,6 @@ ol[role='list'] {
   list-style: none;
 }
 
-/* Set color-theme preference */
-html {
-  color-scheme: dark light;
-}
-
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -47,6 +42,10 @@ body {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+}
+
+a[class] {
+  text-decoration: none;
 }
 
 /* Make images easier to work with */
