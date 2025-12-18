@@ -3,6 +3,7 @@
 @import url(utility.css);
 
 body {
+  /* color-scheme: light; */
   font-family: var(--ff-text);
   font-size: var(--fs-body);
   color: var(--clr-primary);
@@ -79,8 +80,10 @@ main {
 
     select {
       cursor: pointer;
+      appearance: none;
       padding-inline-end: 1.75rem;
       padding-inline-start: 0.75rem;
+      width: 75px;
       color: var(--clr-base);
       font-weight: 500;
       outline-color: transparent;

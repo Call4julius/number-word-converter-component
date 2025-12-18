@@ -16,8 +16,8 @@
   --bg-gradient: #2c2a4e, #6b245a, #3b254b, #3b254b, #006a9e, #2c2a4e;
   --txt-gradient: hsl(316 49% 40%), hsl(196, 100%, 29%);
 
-  --clr-primary: light-dark(hsl(321, 11%, 29%), hsl(205, 100%, 98%));
-  --clr-secondary: light-dark(hsl(205, 100%, 98%), hsl(321, 11%, 29%));
+  --clr-primary: light-dark(hsl(330, 3%, 13%), hsl(205, 100%, 98%));
+  --clr-secondary: light-dark(hsl(205, 100%, 98%), hsl(330, 3%, 13%));
   --clr-accent: light-dark(hsl(196, 100%, 29%), hsl(316 49% 40%));
   --clr-link: hsl(200, 100%, 60%);
   --clr-base: hsl(205, 100%, 98%);
