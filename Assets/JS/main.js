@@ -4,6 +4,10 @@ const form = document.getElementById('form');
 const input = document.getElementById('amount');
 const deposit = document.querySelector('.deposit-btn');
 
+//Get current year.
+document.querySelector('.current-year').innerText = new Date().getFullYear();
+
+//Prevent form submission default action.
 form.addEventListener('submit', function (event) {
   event.preventDefault();
 });
