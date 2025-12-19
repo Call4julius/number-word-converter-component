@@ -1,4 +1,13 @@
 @font-face {
+  font-family: 'Momo Trust Display';
+  src: url(../Fonts/MomoTrustDisplay-Regular.woff2) format('woff2'),
+    url(../Fonts/MomoTrustDisplay-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Roboto Mono';
   src: url(../Fonts/RobotoMono-Bold.woff2) format('woff2'),
     url(../Fonts/RobotoMono-Bold.woff) format('woff');

@@ -7,6 +7,7 @@
   /* FONTS */
   --ff-text: 'Roboto Mono', sans-serif;
   --ff-numeric: Inconsolata, sans-serif;
+  --ff-brand: 'Momo Trust Display', sans-serif;
   --fs-body: 1.25rem;
 
   /* SPACING */
@@ -20,7 +21,7 @@
   --clr-secondary: light-dark(hsl(205, 100%, 98%), hsl(330, 3%, 13%));
   --clr-accent: light-dark(hsl(196, 100%, 29%), hsl(316 49% 40%));
   --clr-link: hsl(200, 100%, 60%);
-  --clr-base: hsl(205, 100%, 98%);
+  --clr-base: hsl(204, 100%, 98%);
 }
 
 /* UTILITY CLASSES */
