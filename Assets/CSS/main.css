@@ -222,7 +222,7 @@ main {
       width: 25px;
       aspect-ratio: 1;
       translate: 5vw -30vh;
-      transform: rotate(-30deg);
+      transform: rotate(-35deg);
       display: none;
       opacity: 0;
 
@@ -244,7 +244,7 @@ main {
       display: block;
       opacity: 1;
       translate: 0 0;
-      transform: rotate(15deg);
+      transform: rotate(10deg);
 
       @starting-style {
         opacity: 0;
