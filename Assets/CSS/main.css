@@ -25,7 +25,6 @@ main {
   margin-inline: auto;
   margin-block-start: 2.5rem;
   width: min(500px, 90vw);
-  gap: 0.5rem;
 }
 
 .company-header {
@@ -36,7 +35,7 @@ main {
   gap: 1rem;
 
   .company-logo {
-    width: 80px;
+    width: 60px;
     aspect-ratio: 2 / 3;
   }
 
@@ -81,8 +80,8 @@ main {
     select {
       cursor: pointer;
       appearance: none;
-      padding-inline-end: 1.75rem;
-      padding-inline-start: 0.75rem;
+      padding-inline-end: 1.5rem;
+      padding-inline-start: 1rem;
       width: 75px;
       color: var(--clr-base);
       font-weight: 500;
@@ -218,7 +217,7 @@ main {
       top: 20%;
       right: 32.5%;
       transform: translateY(-50%);
-      fill: hsl(from var(--clr-accent) h s 80%);
+      fill: hsl(from var(--clr-accent) h s 70%);
       width: 25px;
       aspect-ratio: 1;
       translate: 5vw -30vh;
