@@ -12,13 +12,6 @@ form.addEventListener('submit', function (event) {
   event.preventDefault();
 });
 
-// Stop space from being entered.
-input.addEventListener('keydown', function (e) {
-  if (e.code === 'Space' || e.key === ' ') {
-    e.preventDefault();
-  }
-});
-
 input.addEventListener('input', (e) => {
   // Ensures only numbers can be entered in the text-input field.
   if (isNaN(input.value.slice(-1)))
